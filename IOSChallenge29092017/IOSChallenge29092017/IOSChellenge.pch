@@ -1,0 +1,17 @@
+//
+//  IOSChellenge.pch
+//  IOSChallenge29092017
+//
+//  Created by Macbook  on 10/3/17.
+//  Copyright © 2017 tuanbinh. All rights reserved.
+//
+
+#ifndef IOSChellenge_pch
+#define IOSChellenge_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "TTConstant.h"
+
+#endif /* IOSChellenge_pch */
