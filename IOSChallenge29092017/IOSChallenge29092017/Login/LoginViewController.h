@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LoginViewController : UIViewController
+@interface LoginViewController : UIViewController{
+    __weak IBOutlet UILabel *_lbLongText;
+    __weak IBOutlet UITextField *_tfEmail;
+    __weak IBOutlet UITextField *_tfPassword;
+    __weak IBOutlet UIButton *_tfLogin;
+    __weak IBOutlet UILabel *_lbPassword;
+    __weak IBOutlet UILabel *_lbRegister;
+    
+}
 
 @end
