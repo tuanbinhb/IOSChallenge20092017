@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface LoginViewController : UIViewController{
+#import "TBBaseViewController.h"
+@interface LoginViewController : TBBaseViewController {
     __weak IBOutlet UILabel *_lbLongText;
     __weak IBOutlet UITextField *_tfEmail;
     __weak IBOutlet UITextField *_tfPassword;
