@@ -8,6 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		D5B69C2835B46AE7DC6C16E4 /* libPods-IOSChallenge29092017.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71695C1E84D7D136F1108787 /* libPods-IOSChallenge29092017.a */; };
+		E205201B1F873C0100F1CBA5 /* TBNavigationBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = E20520191F873C0100F1CBA5 /* TBNavigationBarView.m */; };
+		E205201C1F873C0100F1CBA5 /* TBNavigationBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E205201A1F873C0100F1CBA5 /* TBNavigationBarView.xib */; };
+		E20520241F87636100F1CBA5 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E20520221F87636100F1CBA5 /* MoreViewController.m */; };
+		E20520251F87636100F1CBA5 /* MoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E20520231F87636100F1CBA5 /* MoreViewController.xib */; };
+		E20520291F87636E00F1CBA5 /* NoticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E20520271F87636E00F1CBA5 /* NoticeViewController.m */; };
+		E205202A1F87636E00F1CBA5 /* NoticeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E20520281F87636E00F1CBA5 /* NoticeViewController.xib */; };
+		E205202E1F87637A00F1CBA5 /* FriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E205202C1F87637A00F1CBA5 /* FriendViewController.m */; };
+		E205202F1F87637A00F1CBA5 /* FriendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E205202D1F87637A00F1CBA5 /* FriendViewController.xib */; };
+		E20520331F87638E00F1CBA5 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E20520311F87638E00F1CBA5 /* FeedViewController.m */; };
+		E20520341F87638E00F1CBA5 /* FeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E20520321F87638E00F1CBA5 /* FeedViewController.xib */; };
+		E223A0B11F85EA9F003DE1DF /* TBTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = E223A0AF1F85EA9F003DE1DF /* TBTabBarView.m */; };
+		E223A0B41F85EB0D003DE1DF /* TBTabBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E223A0B31F85EB0D003DE1DF /* TBTabBarView.xib */; };
+		E22FA61B1F84BA1B008A58A2 /* TBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22FA61A1F84BA1B008A58A2 /* TBBaseViewController.m */; };
+		E22FA61F1F84CD83008A58A2 /* TBBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22FA61E1F84CD83008A58A2 /* TBBaseTabBarController.m */; };
+		E22FA6221F84CDD4008A58A2 /* TBBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22FA6211F84CDD4008A58A2 /* TBBaseNavigationController.m */; };
+		E22FA6251F84CF36008A58A2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22FA6241F84CF36008A58A2 /* MainViewController.m */; };
 		E28238811F7DEB5D00E9B6DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E28238801F7DEB5D00E9B6DF /* AppDelegate.m */; };
 		E282388A1F7DEB5D00E9B6DF /* IOSChallenge29092017.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E28238881F7DEB5D00E9B6DF /* IOSChallenge29092017.xcdatamodeld */; };
 		E282388C1F7DEB5D00E9B6DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E282388B1F7DEB5D00E9B6DF /* Assets.xcassets */; };
@@ -27,6 +43,33 @@
 		5038161944F437C74C92F20E /* Pods-IOSChallenge29092017.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSChallenge29092017.release.xcconfig"; path = "Pods/Target Support Files/Pods-IOSChallenge29092017/Pods-IOSChallenge29092017.release.xcconfig"; sourceTree = "<group>"; };
 		64042758B5AB27B362A4EAF6 /* Pods-IOSChallenge29092017.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSChallenge29092017.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IOSChallenge29092017/Pods-IOSChallenge29092017.debug.xcconfig"; sourceTree = "<group>"; };
 		71695C1E84D7D136F1108787 /* libPods-IOSChallenge29092017.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IOSChallenge29092017.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E20520181F873C0100F1CBA5 /* TBNavigationBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBNavigationBarView.h; sourceTree = "<group>"; };
+		E20520191F873C0100F1CBA5 /* TBNavigationBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBNavigationBarView.m; sourceTree = "<group>"; };
+		E205201A1F873C0100F1CBA5 /* TBNavigationBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TBNavigationBarView.xib; sourceTree = "<group>"; };
+		E20520211F87636100F1CBA5 /* MoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		E20520221F87636100F1CBA5 /* MoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		E20520231F87636100F1CBA5 /* MoreViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoreViewController.xib; sourceTree = "<group>"; };
+		E20520261F87636E00F1CBA5 /* NoticeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoticeViewController.h; sourceTree = "<group>"; };
+		E20520271F87636E00F1CBA5 /* NoticeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoticeViewController.m; sourceTree = "<group>"; };
+		E20520281F87636E00F1CBA5 /* NoticeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoticeViewController.xib; sourceTree = "<group>"; };
+		E205202B1F87637A00F1CBA5 /* FriendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendViewController.h; sourceTree = "<group>"; };
+		E205202C1F87637A00F1CBA5 /* FriendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendViewController.m; sourceTree = "<group>"; };
+		E205202D1F87637A00F1CBA5 /* FriendViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendViewController.xib; sourceTree = "<group>"; };
+		E20520301F87638E00F1CBA5 /* FeedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		E20520311F87638E00F1CBA5 /* FeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
+		E20520321F87638E00F1CBA5 /* FeedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedViewController.xib; sourceTree = "<group>"; };
+		E223A0AE1F85EA9F003DE1DF /* TBTabBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBTabBarView.h; sourceTree = "<group>"; };
+		E223A0AF1F85EA9F003DE1DF /* TBTabBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBTabBarView.m; sourceTree = "<group>"; };
+		E223A0B31F85EB0D003DE1DF /* TBTabBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TBTabBarView.xib; sourceTree = "<group>"; };
+		E22FA6191F84BA1B008A58A2 /* TBBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBBaseViewController.h; sourceTree = "<group>"; };
+		E22FA61A1F84BA1B008A58A2 /* TBBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBBaseViewController.m; sourceTree = "<group>"; };
+		E22FA61C1F84C64A008A58A2 /* NavigationBarType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationBarType.h; sourceTree = "<group>"; };
+		E22FA61D1F84CD83008A58A2 /* TBBaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBBaseTabBarController.h; sourceTree = "<group>"; };
+		E22FA61E1F84CD83008A58A2 /* TBBaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBBaseTabBarController.m; sourceTree = "<group>"; };
+		E22FA6201F84CDD4008A58A2 /* TBBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBBaseNavigationController.h; sourceTree = "<group>"; };
+		E22FA6211F84CDD4008A58A2 /* TBBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBBaseNavigationController.m; sourceTree = "<group>"; };
+		E22FA6231F84CF36008A58A2 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		E22FA6241F84CF36008A58A2 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		E282387C1F7DEB5D00E9B6DF /* IOSChallenge29092017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSChallenge29092017.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E282387F1F7DEB5D00E9B6DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E28238801F7DEB5D00E9B6DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -82,6 +125,82 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		E205201D1F875D5900F1CBA5 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				E20520301F87638E00F1CBA5 /* FeedViewController.h */,
+				E20520311F87638E00F1CBA5 /* FeedViewController.m */,
+				E20520321F87638E00F1CBA5 /* FeedViewController.xib */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		E205201E1F875D6200F1CBA5 /* Friend */ = {
+			isa = PBXGroup;
+			children = (
+				E205202B1F87637A00F1CBA5 /* FriendViewController.h */,
+				E205202C1F87637A00F1CBA5 /* FriendViewController.m */,
+				E205202D1F87637A00F1CBA5 /* FriendViewController.xib */,
+			);
+			path = Friend;
+			sourceTree = "<group>";
+		};
+		E205201F1F875D6800F1CBA5 /* Notice */ = {
+			isa = PBXGroup;
+			children = (
+				E20520261F87636E00F1CBA5 /* NoticeViewController.h */,
+				E20520271F87636E00F1CBA5 /* NoticeViewController.m */,
+				E20520281F87636E00F1CBA5 /* NoticeViewController.xib */,
+			);
+			path = Notice;
+			sourceTree = "<group>";
+		};
+		E20520201F875D6C00F1CBA5 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				E20520211F87636100F1CBA5 /* MoreViewController.h */,
+				E20520221F87636100F1CBA5 /* MoreViewController.m */,
+				E20520231F87636100F1CBA5 /* MoreViewController.xib */,
+			);
+			name = More;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		E22FA6161F84979A008A58A2 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				E22FA6181F849886008A58A2 /* TabbarController */,
+				E22FA6171F849880008A58A2 /* NavController */,
+				E22FA6191F84BA1B008A58A2 /* TBBaseViewController.h */,
+				E22FA61A1F84BA1B008A58A2 /* TBBaseViewController.m */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		E22FA6171F849880008A58A2 /* NavController */ = {
+			isa = PBXGroup;
+			children = (
+				E22FA6201F84CDD4008A58A2 /* TBBaseNavigationController.h */,
+				E22FA6211F84CDD4008A58A2 /* TBBaseNavigationController.m */,
+				E20520181F873C0100F1CBA5 /* TBNavigationBarView.h */,
+				E20520191F873C0100F1CBA5 /* TBNavigationBarView.m */,
+				E205201A1F873C0100F1CBA5 /* TBNavigationBarView.xib */,
+			);
+			path = NavController;
+			sourceTree = "<group>";
+		};
+		E22FA6181F849886008A58A2 /* TabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				E22FA61D1F84CD83008A58A2 /* TBBaseTabBarController.h */,
+				E22FA61E1F84CD83008A58A2 /* TBBaseTabBarController.m */,
+				E223A0AE1F85EA9F003DE1DF /* TBTabBarView.h */,
+				E223A0AF1F85EA9F003DE1DF /* TBTabBarView.m */,
+				E223A0B31F85EB0D003DE1DF /* TBTabBarView.xib */,
+			);
+			path = TabbarController;
+			sourceTree = "<group>";
+		};
 		E28238731F7DEB5C00E9B6DF = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +224,7 @@
 			children = (
 				E282387F1F7DEB5D00E9B6DF /* AppDelegate.h */,
 				E28238801F7DEB5D00E9B6DF /* AppDelegate.m */,
+				E22FA6161F84979A008A58A2 /* BaseController */,
 				E282389A1F7DF41B00E9B6DF /* Main */,
 				E28238991F7DF41100E9B6DF /* Login */,
 				E28238AB1F821AAD00E9B6DF /* Library */,
@@ -145,6 +265,12 @@
 		E282389A1F7DF41B00E9B6DF /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				E20520201F875D6C00F1CBA5 /* More */,
+				E205201F1F875D6800F1CBA5 /* Notice */,
+				E205201E1F875D6200F1CBA5 /* Friend */,
+				E205201D1F875D5900F1CBA5 /* Feed */,
+				E22FA6231F84CF36008A58A2 /* MainViewController.h */,
+				E22FA6241F84CF36008A58A2 /* MainViewController.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -174,6 +300,7 @@
 				E28238B71F83892200E9B6DF /* NSObject+ClassName.m */,
 				E28238B91F8391E400E9B6DF /* NSUserDefaults+Helper.h */,
 				E28238BA1F8391E400E9B6DF /* NSUserDefaults+Helper.m */,
+				E22FA61C1F84C64A008A58A2 /* NavigationBarType.h */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -239,10 +366,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E205202F1F87637A00F1CBA5 /* FriendViewController.xib in Resources */,
 				E28238A41F7E251700E9B6DF /* bg.png in Resources */,
 				E282388F1F7DEB5D00E9B6DF /* LaunchScreen.storyboard in Resources */,
+				E205202A1F87636E00F1CBA5 /* NoticeViewController.xib in Resources */,
+				E205201C1F873C0100F1CBA5 /* TBNavigationBarView.xib in Resources */,
 				E282388C1F7DEB5D00E9B6DF /* Assets.xcassets in Resources */,
+				E20520341F87638E00F1CBA5 /* FeedViewController.xib in Resources */,
+				E20520251F87636100F1CBA5 /* MoreViewController.xib in Resources */,
 				E28238A11F7DF4BC00E9B6DF /* Login.storyboard in Resources */,
+				E223A0B41F85EB0D003DE1DF /* TBTabBarView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,12 +438,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				E28238B81F83892200E9B6DF /* NSObject+ClassName.m in Sources */,
+				E20520241F87636100F1CBA5 /* MoreViewController.m in Sources */,
+				E205201B1F873C0100F1CBA5 /* TBNavigationBarView.m in Sources */,
+				E22FA61B1F84BA1B008A58A2 /* TBBaseViewController.m in Sources */,
+				E205202E1F87637A00F1CBA5 /* FriendViewController.m in Sources */,
 				E28238AE1F821B1000E9B6DF /* NSString+Validation.m in Sources */,
 				E28238BE1F83933B00E9B6DF /* User.m in Sources */,
+				E223A0B11F85EA9F003DE1DF /* TBTabBarView.m in Sources */,
+				E22FA6251F84CF36008A58A2 /* MainViewController.m in Sources */,
 				E28238AA1F81ED8400E9B6DF /* RegisterViewController.m in Sources */,
+				E20520331F87638E00F1CBA5 /* FeedViewController.m in Sources */,
 				E282389F1F7DF48F00E9B6DF /* LoginViewController.m in Sources */,
 				E282388A1F7DEB5D00E9B6DF /* IOSChallenge29092017.xcdatamodeld in Sources */,
+				E20520291F87636E00F1CBA5 /* NoticeViewController.m in Sources */,
 				E28238BB1F8391E400E9B6DF /* NSUserDefaults+Helper.m in Sources */,
+				E22FA6221F84CDD4008A58A2 /* TBBaseNavigationController.m in Sources */,
+				E22FA61F1F84CD83008A58A2 /* TBBaseTabBarController.m in Sources */,
 				E28238921F7DEB5D00E9B6DF /* main.m in Sources */,
 				E28238811F7DEB5D00E9B6DF /* AppDelegate.m in Sources */,
 			);
